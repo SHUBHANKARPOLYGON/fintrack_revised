@@ -45,4 +45,4 @@ app.*.map.json
 /android/app/release
 
 #Ignore services.json file
-/android/app/google-services.json
+android/app/google-services.json
