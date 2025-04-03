@@ -24,7 +24,7 @@ class _SignupScreenState extends State<SignupScreen> {
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Signup Failed: ${e.toString()}")),
+        SnackBar(content: Text("You are already registered")),
       );
     }
   }
